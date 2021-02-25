@@ -8,7 +8,23 @@
 
 PVCorobot è un robot collaborativo autocostruito con materiali di recupero e a basso costo, controllato da un PLC Siemens S71200 a seguito delle informazioni in tempo reale ricevute da una rete neurale installata su una GPU Jetson Nano
  
- IMMAGINE PVCorobot
+  <html lang="it"> 
+
+<body>
+    <div class="container">
+         <!-- finestra popup 3 -->
+        <a href="#x" class="overlay" id="win3"></a>
+        <div class="popup">
+            <div class="video">
+         <!-- il link you tube deve essere selezionato dal link di rete lasciando la cartella embed -->
+		    <iframe width="614" height="345" src="https://www.youtube.com/embed/2P0j74Kl6sE" ></iframe>
+            </div>
+            <a class="close" title="Chiudere" href="modal.html" onclick = "modal.html(); return false;"></a>
+        </div>
+       
+    </div>
+</body>
+</html>
 
 Lo scopo del progetto è quello di rendere possibile la costruzione del robot da parte delle scuole utilizzando pezzi di tubo in PVC innestato in curve e TEE facilmente reperibili sul mercato o addirittura da sfridi, per realizzare un prodotto didattico avanzato e facilmente repricabile per piu' postazioni di lavoro. La tecnologia impiegata nel robot è di tutto riguardo trattandosi di tecnologia Siemens (Tia Portal, PLC S71200) abbinata ad una rete neurale in Python personalizzata che gira su una GPU Jetson Nano
 
