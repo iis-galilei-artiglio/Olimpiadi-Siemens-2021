@@ -1,4 +1,4 @@
-<B><font color='blue' size='6'>IIS Galilei-Artiglio</font></B>
+<b><font color='green' size='6'>IIS Galilei-Artiglio</font></b>
 
 
 ## Olimpiadi di Automazione Siemens
