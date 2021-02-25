@@ -44,5 +44,5 @@ Circa invece la costruzione del robot in presenza, i docenti hanno mostrato come
 La parte di programmazione con il Tia Portal è stata sviluppata in parte in presenza ed in parte in DAD.
 
 ## Attività svolta dalla Classe 4BS Liceo Scientifico Tecnologico
-Le ragazze ed i ragazzi che hanno partecipato al progetto Siemens, hanno realizzato, **_in totale autonomia_**,  un [video](https://www.youtube.com/watch?v=2P0j74Kl6sE&feature=emb_imp_woyt) che, seppure con qualche imprecisione, fornisce la cifra dell'impegno dimostrato
+Le ragazze ed i ragazzi del Liceo che hanno partecipato al progetto Siemens, hanno realizzato, **_in totale autonomia_**,  un [video](https://www.youtube.com/watch?v=2P0j74Kl6sE&feature=emb_imp_woyt) che, seppure con qualche imprecisione, fornisce la cifra dell'impegno dimostrato
 
