@@ -8,7 +8,7 @@
 
 PVCorobot è un robot collaborativo autocostruito con materiali di recupero e a basso costo, controllato da un PLC Siemens S71200 a seguito delle informazioni in tempo reale ricevute da una rete neurale installata su una GPU Jetson Nano
  
-  <html lang="it"> 
+<html lang="it"> 
 
 <body>
     <div class="container">
