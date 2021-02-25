@@ -44,7 +44,7 @@ Circa invece la costruzione del robot in presenza, i docenti hanno mostrato come
 La parte di programmazione con il Tia Portal è stata sviluppata in parte in presenza ed in parte in DAD.
 
 ## Aspetti principali della comunicazione tra il PLC Siemens e Jetson Nano
-
+La rete neurale presente su JN è in codice Python scaricabile direttamente dal repository. Per maggiori dettagli sull'addestramento della rete neurale si rimanda alla pagine di [NVIDIA JETSON](https://github.com/dusty-nv/jetson-inference) 
 
 
 ## Attività di addestramento della rete neurale svolta dalla Classe 4BS Liceo Scientifico Tecnologico
