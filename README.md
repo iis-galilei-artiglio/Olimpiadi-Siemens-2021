@@ -11,7 +11,7 @@ Lo scopo del progetto è quello di rendere possibile la costruzione del robot da
 ## Pubblicazione su GitHub Pages
 
 Le classi dell'IIS Galilei-Artiglio hanno deciso di sviluppare il progetto su GitHub sostanzialmente per due motivi: per condividere uno spazio di lavoro comune tra Liceo ed ITI durante la realizzazione del robot e per condividerlo con altre scuole e/o persone interessate una volta realizzato. 
-Ma non si tratta solo di una condivisione "unidirezionale" perchè la repository di GitHub consente a chiunque di migliorare il progetto attraverso proposte, suggerimenti correzioni nello spirito di collaborazione proprio di [GitHub](https://guides.github.com/activities/hello-world/)
+In questo modalità la condivisione non è "unidirezionale" perchè i file presenti nella la repository permettono a chiunque di migliorare il progetto attraverso proposte, suggerimenti correzioni nello spirito di collaborazione proprio di [GitHub](https://guides.github.com/activities/hello-world/)
 
 
 You can use the [editor on GitHub](https://github.com/iis-galilei-artiglio/Olimpiadi-Siemens-2021/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
