@@ -1,6 +1,7 @@
 # Olimpiadi di Automazione Siemens
 
 ##<font color='red'>Progetto PVCorobot</font>
+
 PVCorobot è un robot collaborativo autocostruito con materiali di recupero e a basso costo, controllato da un PLC Siemens S71200 a seguito delle informazioni in tempo reale ricevute da una rete neurale installata sulla GPU Jetson Nano
  
  ## IMMAGINE PVCorobot
