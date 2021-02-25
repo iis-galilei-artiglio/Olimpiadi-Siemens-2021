@@ -2,6 +2,7 @@
 
 ## Progetto PVCorobot
 Descrizione
+foo <font color='red'>bar</font> foo
 
 ## Welcome to GitHub Pages
 
