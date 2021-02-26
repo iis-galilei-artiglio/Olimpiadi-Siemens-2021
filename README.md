@@ -48,7 +48,7 @@ La rete neurale presente su JN è in codice Python scaricabile direttamente dal 
 
 Il collegamento tra JN e PLC avviene via LAN tramite TCP/IP dopo aver settato nel TIA Portal l'indirizzo del partner ovvero di JN
 
-<img src="connect_plc_JN.png" width=400>
+<img src="images/connect_plc_JN.png" width=400>
 
 
 
