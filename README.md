@@ -51,6 +51,7 @@ Il collegamento tra JN e PLC avviene via LAN tramite TCP/IP dopo aver settato ne
 <img src="connect_plc_JN.png" width=400>
 
 
+
 ## Attività di addestramento della rete neurale svolta dalla Classe 4BS Liceo Scientifico Tecnologico
 Le ragazze ed i ragazzi del Liceo che hanno partecipato al progetto Siemens, hanno realizzato, **_in totale autonomia_**,  un [video](https://www.youtube.com/watch?v=2P0j74Kl6sE&feature=emb_imp_woyt) che, seppure con qualche imprecisione, fornisce la cifra dell'impegno dimostrato
 
