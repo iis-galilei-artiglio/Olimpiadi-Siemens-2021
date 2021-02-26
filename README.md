@@ -50,6 +50,9 @@ Il collegamento tra JN e PLC avviene via LAN tramite TCP/IP dopo aver settato ne
 
 <img src="images/connect_plc_JN.png" width=400>
 
+Le coordinate dell'immagine riconosciuta da JN sono inviate direttamente ne DataBase del PLC
+
+<img src="images/db.png" width=400>
 
 
 ## Attività di addestramento della rete neurale svolta dalla Classe 4BS Liceo Scientifico Tecnologico
