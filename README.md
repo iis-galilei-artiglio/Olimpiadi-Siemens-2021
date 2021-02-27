@@ -46,6 +46,8 @@ La parte di programmazione con il Tia Portal è stata sviluppata in parte in pre
 ## Aspetti principali della comunicazione tra il PLC Siemens e Jetson Nano
 La rete neurale presente su JN è in codice Python scaricabile direttamente dal repository. Per maggiori dettagli sull'addestramento della rete neurale si rimanda alla pagina di [NVIDIA JETSON](https://github.com/dusty-nv/jetson-inference).
 
+La rete neurale è stata addestrata per il riconoscimento di un relè con prabilità di oltre il 50%
+
 <html lang="it"> 
 
 <body>
