@@ -55,7 +55,7 @@ La rete neurale presente su JN è in codice Python scaricabile direttamente dal 
         <div class="popup">
             <div class="video">
          <!-- il link you tube deve essere selezionato dal link di rete lasciando la cartella embed -->
-		    <iframe width="614" height="345" src="images/" ></iframe>
+		    <iframe width="614" height="345" src="images/scanrele.mp4" ></iframe>
             </div>
             <a class="close" title="Chiudere" href="modal.html" onclick = "modal.html(); return false;"></a>
         </div>
