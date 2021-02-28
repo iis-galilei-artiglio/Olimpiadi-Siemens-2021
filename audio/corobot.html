@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+
+<!-- AWP_In_Variable Name='"ON"' -->
+<!-- AWP_In_Variable Name='"OFF"' -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+    <h1><span style="color:blue;">COROBOT</span></h1>
+	<h4> l'app di controllo vocale di un <span style="color:blue;">PLC S71200 Siemens</span></h4>
+    
+    <h3>Clicca sul microfono, pronuncia <span style="color:blue;">la richiesta,</span></h3>
+    <p style="background-color : blue;"><br>
+    </p>
+    <p style="background-color : white;"><br>
+      <style type="text/css">
+    <!--
+     body,td,th {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size:14px;
+     }
+     input{
+      height:auto;
+      font-size:100%;
+      }
+     -->
+     </style>
+      <!-- Search Form --> </p>
+    <form name="frase">
+      <style type="text/css">  body {font-size: 14pt; font-family: arial; color: black} </style>
+      <input name="testo" id="transcript" size="25" style="width: 500px; height: 50px;"
+
+        placeholder="Clicca sul microfono per comandare Corobot" type="text">
+      <img onclick="startDictation()" src="http://www.albertodelcarlo.it/micr.gif">
+    </form>
+	
+    <p style="background-color : blue;"><br>
+    </p>
+ 
+      <!-- HTML5 Speech Recognition API -->
+	  
+      <script language="javascript" type="text/javascript"> 
+	
+		
+				 
+		 var recognition = new webkitSpeechRecognition();
+		 
+		 function startDictation() {  
+		
+      	if (window.hasOwnProperty('webkitSpeechRecognition')) { 
+		
+          recognition.continuous = false;  
+          recognition.interimResults = false;  
+       
+          recognition.lang = "it-IT";  
+          recognition.start();  
+       
+          recognition.onresult = function(e) {  
+            document.getElementById('transcript').value  
+                                     = e.results[0][0].transcript; 
+								 
+			recognition.stop();  
+			            document.getElementById('labnol').submit(); 
+							
+					
+          };  
+       
+          recognition.onerror = function(e) {  
+            recognition.stop(); 
+			
+          }  
+      	   
+        }
+		
+	    setTimeout(function(){parlare();}, 6000);
+		
+			
+      }  
+		
+		function refresh(stringa){
+		if (stringa != ""){
+		document.location.reload();
+		}
+		}
+		
+	 	function speech($text) {
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[9];
+		msg.voiceURI = 'native';
+		msg.volume = 1; // 0 to 1
+		msg.rate = 1; // 0.1 to 10
+		msg.pitch = 2; //0 to 2
+		msg.text = $text;
+		msg.lang = 'it-IT';
+    
+		speechSynthesis.speak(msg);
+        	}
+			
+		function parlare () 
+		{
+		var x = document.frase.testo.value;
+		
+		switch (x) {
+				
+		case (x="prendi"):
+		z =  "Ricevuto Corobot prende l'oggetto";
+		document.getElementById("control1").value = "true";
+		document.getElementById("control2").value = "false";
+		document.getElementById("btnON").click();
+		break;
+		
+		case (x="Prendi"):
+		z =  "Ricevuto Corobot prende l'oggetto";
+		document.getElementById("control1").value = "true";
+		document.getElementById("control2").value = "false";
+		document.getElementById("btnON").click();
+		
+		break;
+		
+		case (x="stop"):
+		z =  "Ricevuto Corobot si arresta";
+		document.getElementById("control2").value = "true";
+		document.getElementById("control1").value = "false";
+		document.getElementById("btnOFF").click();
+		break;
+		
+		case (x="Stop"):
+		z =  "Ricevuto Corobot si arresta";
+		document.getElementById("control2").value = "true";
+		document.getElementById("control1").value = "false";
+		document.getElementById("btnOFF").click();
+		break;
+			
+		case (x="ferma"):
+		z =  "Ricevuto Corobot si arresta";
+		document.getElementById("control2").value = "true";
+		document.getElementById("control1").value = "false";
+		document.getElementById("btnOFF").click();
+		break;	
+		
+		default :
+		z = "Corobot attende ";
+		x=" ";
+		}
+		
+		speech(z);
+		setTimeout(function(){refresh(x);}, 3000);
+		}
+	
+	</script>
+		
+    <p></p>
+   
+    	
+	<form>
+	<input type="text" id="control1"  name='"ON"'>
+	<input id="btnON" type="submit" value="ON">
+	</form>
+	
+	<form>
+	<input type="text" id="control2"  name='"OFF"'>
+	<input id="btnOFF" type="submit" value="OFF">
+	</form>
+	
+
+  </body>
+  
+
+</html>
