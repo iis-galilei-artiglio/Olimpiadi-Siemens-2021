@@ -78,7 +78,7 @@ Le coordinate dell'immagine riconosciuta da JN sono inviate direttamente nel Dat
 <img src="images/db.png" width=400>
 
 ## Controllo vocale del PLC Siemens S71200
-Il Web Server del PLC è utilizzato per attivare vocalmente il robot collaborativo. L'interfaccia vocale abbinata alla rete neurale che "vede" l'oggetto da afferrare, vuole spingere il progetto nel futuro dell'automazione. E' possibile interagire vocalmente con la pagina personalizzata del PLC cliccando su questo [link](<a href="audio/corobot.html" target="_blank">Audio PVCorobot</a>) 
+Il Web Server del PLC è utilizzato per attivare vocalmente il robot collaborativo. L'interfaccia vocale abbinata alla rete neurale che "vede" l'oggetto da afferrare, vuole spingere il progetto nel futuro dell'automazione. E' possibile interagire vocalmente con la pagina personalizzata del PLC cliccando su (<a href="audio/corobot.html" target="_blank">Audio PVCorobot</a>) 
 
 
 ## Attività di addestramento della rete neurale svolta dalla Classe 4BS Liceo Scientifico Tecnologico
