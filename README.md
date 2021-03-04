@@ -56,8 +56,8 @@ Il braccio di PVCorobot ha una estensione massima di circa 50cm ed è in grado d
 - [Motoriduttore 24V](https://www.amazon.it/motoriduttore-XD-42GA775-Motoriduttore-regolabile-caratteristiche/dp/B07RSYGS7R/ref=dp_prsubs_2?pd_rd_i=B07RSYGS7R&psc=1)
 <img src="images/motor.png" width=80>
 
-- [Cestino](https://www.amazon.it/gp/product/B088BKHFNK/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
-<img src="images/cest.png" width=80>
+- [Cestino di contenimento](https://www.amazon.it/gp/product/B088BKHFNK/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+<img src="images/cest.png" width=100>
 
 ## Aspetti principali della comunicazione tra il PLC Siemens e Jetson Nano
 La rete neurale presente su JN è in codice Python scaricabile direttamente dal repository. Per maggiori dettagli sull'addestramento della rete neurale si rimanda alla pagina di [NVIDIA JETSON](https://github.com/dusty-nv/jetson-inference).
