@@ -46,7 +46,7 @@ La parte di programmazione con il Tia Portal è stata sviluppata in parte in pre
 
 ## Costi e reperibilità online dei materiali
 Il braccio di PVCorobot ha una estensione massima di circa 50cm ed è in grado di ruotare di 360°. Per renderlo facilmente trasportabile ed indipendente è stato inserito all'interno di un cestino metallico che funge anche da supporto per il PLC, la GPU e gli altri componenti. Al fine di facilitare la repricabilità del robot, di seguito sono riportati i link del materiale acquistato online. Naturalmente è solo un suggerimento, un'idea che si vuole comunicare, in quanto il progetto è fortemente personalizzabile e quindi migliorabile.
-- PLC Siemns S71200 
+- PLC Siemens S71200 
 <img src="images/connect_plc_JN.png" width=400>
 
 ## Aspetti principali della comunicazione tra il PLC Siemens e Jetson Nano
