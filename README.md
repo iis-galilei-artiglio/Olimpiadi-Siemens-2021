@@ -50,7 +50,7 @@ Il braccio di PVCorobot ha una estensione massima di circa 50cm ed è in grado d
 - [PLC Siemens S71200](https://mall.industry.siemens.com/mall/it/it/Catalog/Products/10045652)
 <img src="images/plc.png" width=100>
 
-- [Jetson Nano](https://www.amazon.it/owootecc-Developer-Versione-alimentazione-parallelo/dp/B081CN3VB1/ref=sr_1_4?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1GEAXFX67NZA3&dchild=1&keywords=jetson+nano&qid=1614870928&sprefix=Jetson+nano%2Cindustrial%2C759&sr=8-4)
+- [NVIDIA Jetson Nano](https://www.amazon.it/owootecc-Developer-Versione-alimentazione-parallelo/dp/B081CN3VB1/ref=sr_1_4?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1GEAXFX67NZA3&dchild=1&keywords=jetson+nano&qid=1614870928&sprefix=Jetson+nano%2Cindustrial%2C759&sr=8-4)
 <img src="images/JN.png" width=100>
 
 - [Motoriduttore 24V](https://www.amazon.it/motoriduttore-XD-42GA775-Motoriduttore-regolabile-caratteristiche/dp/B07RSYGS7R/ref=dp_prsubs_2?pd_rd_i=B07RSYGS7R&psc=1)
@@ -58,6 +58,15 @@ Il braccio di PVCorobot ha una estensione massima di circa 50cm ed è in grado d
 
 - [Cestino di contenimento](https://www.amazon.it/gp/product/B088BKHFNK/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
 <img src="images/cest.png" width=100>
+
+- [Cuscinetti D.40](https://www.amazon.it/gp/product/B07RLXCZJH/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1)
+<img src="images/cusc.png" width=80>
+
+- [TEE PVC D.40](https://www.manomano.it/catalogue/p/tee-braga-in-pvc-arancio-rosso-derivazione-a-87-diam40-mm-acqua-fogna-14662293#/)
+<img src="images/tee.png" width=80>
+
+- [Tubo PVC D.40](https://www.manomano.it/p/tubo-in-pvc-arancio-14757608?model_id=17947413)
+<img src="images/tub.png" width=80>
 
 ## Aspetti principali della comunicazione tra il PLC Siemens e Jetson Nano
 La rete neurale presente su JN è in codice Python scaricabile direttamente dal repository. Per maggiori dettagli sull'addestramento della rete neurale si rimanda alla pagina di [NVIDIA JETSON](https://github.com/dusty-nv/jetson-inference).
