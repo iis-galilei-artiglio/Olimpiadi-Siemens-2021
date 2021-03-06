@@ -6,10 +6,12 @@
 
 <b><font color='blue' size='4'>Progetto PVCorobot</font></b>
 
-PVCorobot è un robot collaborativo autocostruito con materiali di recupero e a basso costo, controllato da un [PLC Siemens S71200](https://cache.industry.siemens.com/dl/files/593/109741593/att_895892/v1/s71200_system_manual_it-IT_it-IT.pdf) a seguito delle informazioni in tempo reale ricevute da una rete neurale installata su una [GPU Jetson Nano](https://www.nvidia.com/it-it/autonomous-machines/embedded-systems/jetson-nano/product-development/). Di seguito il video di presentazione del progetto **VIDEO ISTITUZIONALE ANCORA DA CARICARE**
+PVCorobot è un robot collaborativo autocostruito con materiali di recupero e a basso costo, controllato da un [PLC Siemens S71200](https://cache.industry.siemens.com/dl/files/593/109741593/att_895892/v1/s71200_system_manual_it-IT_it-IT.pdf) a seguito delle informazioni in tempo reale ricevute da una rete neurale installata su una [GPU Jetson Nano](https://www.nvidia.com/it-it/autonomous-machines/embedded-systems/jetson-nano/product-development/). Di seguito il video di presentazione del progetto 
  
+Scopo del progetto è quello di rendere possibile la costruzione del robot da parte delle scuole utilizzando pezzi di tubo in PVC innestato in curve e TEE facilmente reperibili sul mercato o addirittura da sfridi, per realizzare un prodotto didattico avanzato e facilmente repricabile per piu' postazioni di lavoro. La tecnologia impiegata nel robot è di tutto riguardo trattandosi di tecnologia Siemens (Tia Portal, PLC S71200) abbinata ad una rete neurale in Python personalizzata che gira su una GPU Jetson Nano. Il robot è facilmente trasportabile e necessita solo dell'alimentazione elettrica e del collegamento ad internet che può anche avvenire via WiFi, avendo tutto l'occorrente (PLC, Jetson, Nano, router ecc.) "bordo macchina".
+I motori per l'azionamento sono motoriduttori a 24V in DC controllati in PWM dal PLC Siemens. Si è scelto di usare dei motoriduttori in DC al posto di motori passo-passo proprio per esaltare il controllo che il PLC può svolge attraverso la rete neurale, avendo a riferimento il modello umano ovvero il cervello che comunica ai muscoli degli arti movimenti fluidi e continui e non del tipo "step by step".
+**VIDEO ISTITUZIONALE ANCORA DA CARICARE**
 <html lang="it"> 
-
 <body>
     <div class="container">
          <!-- finestra popup 3 -->
@@ -21,13 +23,10 @@ PVCorobot è un robot collaborativo autocostruito con materiali di recupero e a 
             </div>
             <a class="close" title="Chiudere" href="modal.html" onclick = "modal.html(); return false;"></a>
         </div>
-       
     </div>
 </body>
 </html>
 
-Scopo del progetto è quello di rendere possibile la costruzione del robot da parte delle scuole utilizzando pezzi di tubo in PVC innestato in curve e TEE facilmente reperibili sul mercato o addirittura da sfridi, per realizzare un prodotto didattico avanzato e facilmente repricabile per piu' postazioni di lavoro. La tecnologia impiegata nel robot è di tutto riguardo trattandosi di tecnologia Siemens (Tia Portal, PLC S71200) abbinata ad una rete neurale in Python personalizzata che gira su una GPU Jetson Nano. Il robot è facilmente trasportabile e necessita solo dell'alimentazione elettrica e del collegamento ad internet che può anche avvenire via WiFi, avendo tutto l'occorrente (PLC, Jetson, Nano, router ecc.) "bordo macchina".
-I motori per l'azionamento sono motoriduttori a 24V in DC controllati in PWM dal PLC Siemens. Si è scelto di usare dei motoriduttori in DC al posto di motori passo-passo proprio per esaltare il controllo che il PLC può svolge attraverso la rete neurale, avendo a riferimento il modello umano ovvero il cervello che comunica ai muscoli degli arti movimenti fluidi e continui e non del tipo "step by step".
 
 ## Caso studio
 L'azienda aaa tra le varie attività produce inerti che sono trasportati mediante specifici automezzi dal luogo di produzione ai vari cantieri che ne fanno richiesta. I camion carichi di materiale, prima di immettersi su strada pubblica devono attraversare un breve percorso in asfalto dove ai lati della carreggiata è presente un sistema di spruzzatori ad acqua che lavano gli pneumatici dai frantumi e dalla sabbia di cava al fine di evitarne il deposito sulla via di pubblica utilità. Il lavaggio delle ruote è attualmente controllato da fotocellule poste ad una certa altezza per evitare che il sistema spruzzi acqua alle autovetture del personale e dei clienti che accedono agli uffici, essendo il varco di ingresso unico per tutta l'attività. Tuttavia il problema si presenta per quegli automezzi che hanno altezze superiori come ad esempio le vetture dei corrieri per le forniture di magazzino. Al fine di risparmiare energia ed acqua dovuto ad interventi intempestivi, è stato proposto di installare una webcam con una rete neurale in grado di riconoscere solo i mezzi di trasporto del materiale inerte. La informazioni ricavate dalla rete neurale sono trasmesse al PLC Siemens S7 1200 che provvede ad attivare la sequenza semaforica e le elettrovalvole per il lavaggio corretto delle ruote dei camion. Apparentemente il caso studio sembra non avere elementi in comune con il controllo di un robot ad uso didattico. In realtà è vero l'opposto. Addestrare una rete neurale su oggetti personalizzati, ricavare le informazioni utili dall'oggetto riconosciuto e trasferirle al PLC Siemens S71200 per il controllo delle azioni da compiere è un metodo, un approccio generale che sta alla base del connubio AI-PLC.  
