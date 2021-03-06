@@ -114,6 +114,6 @@ Le informazioni che la rete neurale comunica al PLC sono sostanzialmente tre: la
 Il Web Server del PLC è utilizzato per attivare vocalmente il robot collaborativo. L'interfaccia vocale abbinata alla rete neurale che "vede" l'oggetto da afferrare, vuole spingere il progetto nel futuro dell'automazione. E' possibile interagire vocalmente offline con la pagina personalizzata del PLC cliccando su <a href="audio/corobot.html" target="_blank">Audio PVCorobot</a> 
 
 
-## Attività di addestramento della rete neurale svolta dalla Classe 4BS Liceo Scientifico Tecnologico
+## Attività di addestramento della rete neurale Classe 4BS Liceo Scientifico Tecnologico
 Le ragazze ed i ragazzi del Liceo che hanno partecipato al progetto Siemens, hanno realizzato, **_in totale autonomia_**,  un [video](https://www.youtube.com/watch?v=2P0j74Kl6sE&feature=emb_imp_woyt) che, seppure con qualche imprecisione, fornisce la cifra dell'impegno dimostrato
 
