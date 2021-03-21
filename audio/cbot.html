@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- AWP_In_Variable Name='"ONCAM"' -->
+<!-- AWP_In_Variable Name='"ON"' -->
+<!-- AWP_In_Variable Name='"riconoscimento"' -->
+<!-- AWP_In_Variable Name='"STAY"' -->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body style="background-color: #ffff66;">
+    <h1 style="text-align: center;"><strong><span style="color:red;">PVCorobot</span></strong></h1>
+    <h4 style="text-align: center; background-color: #ffff66;"> App di controllo
+      vocale di un <strong><span style="color:red;">PLC S71200 Siemens</span></strong></h4>
+    <p style="background-color: #ffff66;"><br>
+    </p>
+    <h3 style="background-color: #ffff66;">Clicca sul microfono, pronuncia <em><span
+          style="color:red;">le richieste:</span></em><span style="color:red;">
+        <p></p>
+      </span> <strong>- RICONOSCI</strong> per riconoscere l'oggetto
+      <p style="background-color: #ffff66;"></p>
+      <strong>- PRENDI</strong> per prendere l'oggetto
+      <p style="background-color: #ffff66;"></p>
+      <strong>- STOP RICONOSCIMENTO</strong> per arrestare il riconoscimento
+      <p style="background-color: #ffff66;"></p>
+      <strong>- STOP ROBOT</strong> per arrestare il <em><span style="color:red;">PVCorobot</span></em>
+      <p style="background-color: #ffff66;"></p>
+      <strong>- RIPRISTINO</strong> per ripristinare la posizione iniziale del
+      robot </h3>
+    <p style="background-color: #ffff66;"><br>
+      <style type="text/css">
+    <!--
+     body,td,th {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size:14px;
+     }
+     input{
+      height:auto;
+      font-size:100%;
+      }
+     -->
+     </style>
+      <!-- Search Form --> </p>
+    <form name="frase">
+      <style type="text/css">  body {font-size: 14pt; font-family: arial; color: black} </style>
+      <input name="testo" id="transcript" size="25" style="width: 500px; height: 50px;"
+        placeholder="Clicca sul microfono per comandare Corobot" type="text"> <img
+        onclick="startDictation()" src="http://www.albertodelcarlo.it/mic1.gif">
+    </form>
+    <!-- HTML5 Speech Recognition API -->
+    <script language="javascript" type="text/javascript"> 
+	
+		var okneural = true;
+				 
+		 var recognition = new webkitSpeechRecognition();
+		 
+		 function startDictation() {  
+		
+      	if (window.hasOwnProperty('webkitSpeechRecognition')) { 
+		
+          recognition.continuous = false;  
+          recognition.interimResults = false;  
+       
+          recognition.lang = "it-IT";  
+          recognition.start();  
+       
+          recognition.onresult = function(e) {  
+            document.getElementById('transcript').value  
+                                     = e.results[0][0].transcript; 
+								 
+			recognition.stop();  
+			            document.getElementById('labnol').submit(); 
+							
+					
+          };  
+       
+          recognition.onerror = function(e) {  
+            recognition.stop(); 
+			
+          }  
+      	   
+        }
+		
+	    setTimeout(function(){parlare();}, 6000);
+		
+			
+      }  
+		
+		function refresh(stringa){
+		if (stringa != ""){
+		document.location.reload();
+		}
+		}
+		
+	 	function speech($text) {
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[9];
+		msg.voiceURI = 'native';
+		msg.volume = 1; // 0 to 1
+		msg.rate = 1; // 0.1 to 10
+		msg.pitch = 2; //0 to 2
+		msg.text = $text;
+		msg.lang = 'it-IT';
+    
+		speechSynthesis.speak(msg);
+        	}
+			
+		function parlare () 
+		{
+		var x = document.frase.testo.value;
+		
+		switch (x) {
+
+		case (x="riconosci"):
+		z =  "Ricevuto Corobot avvia il riconoscimento dell'oggetto";
+		document.getElementById("camcontrol").value = "true";
+		document.getElementById("btnCAMON").click();
+		break;			
+		
+			
+		case (x="prendi"):
+		if (okneural)
+		{
+		z =  "Ricevuto Corobot prende l'oggetto";
+		document.getElementById("control").value = "true";
+		document.getElementById("btnON").click();
+		}
+		else
+		{
+		z =  "Non posso prendere l'oggetto prima di averlo riconosciuto.";
+		}
+		break;
+			
+		case (x="stop robot"):
+		z =  "Ricevuto Corobot si arresta";
+		document.getElementById("camcontrol").value = "false";
+		document.getElementById("control").value = "false";	
+		document.getElementById("btnCAMON").click();
+		document.getElementById("btnON").click();
+		break;
+		
+		case (x="stop riconoscimento"):
+		z =  "Ricevuto Corobot arresta il riconoscimento";
+		document.getElementById("camcontrol").value = "false";
+		document.getElementById("btnCAMON").click();
+		break;
+		
+		case (x="ripristino"):
+		z =  "Ricevuto ripristino posizione iniziale corobot";
+		document.getElementById("reset").value = "true";
+		document.getElementById("btnRST").click();
+		break;
+		
+		default :
+		z = "Corobot attende istruzioni";
+		x=" ";
+		}
+		
+		speech(z);
+		setTimeout(function(){refresh(x);}, 3000);
+		}
+	
+	</script>
+    <p></p>
+    <form> <input id="camcontrol" name="&quot;ONCAM&quot;" type="text"> <input
+id="btnCAMON" value="WebCam" type="submit"> </form>
+    <form> <input id="control" name="&quot;ON&quot;" type="text"> <input id="btnON"
+value="PVCorobot" type="submit"> </form>
+    <form> <input id="reset" name="&quot;STAY&quot;" type="text"> <input id="btnRST"
+value="Ripristino" type="submit"> </form>
+  </body>
+</html>
