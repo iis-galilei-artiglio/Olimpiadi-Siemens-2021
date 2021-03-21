@@ -113,6 +113,7 @@ Le informazioni che la rete neurale comunica al PLC sono sostanzialmente tre: la
 
 ## Controllo vocale del PLC Siemens S71200
 Il Web Server del PLC è utilizzato per attivare vocalmente il robot collaborativo. L'interfaccia vocale abbinata alla rete neurale che "vede" l'oggetto da afferrare, vuole spingere il progetto nel futuro dell'automazione. E' possibile interagire vocalmente offline con la pagina personalizzata del PLC cliccando su <a href="audio/corobotbis.html" target="_blank">Audio PVCorobot</a>. Il controllo vocale online del PLC S7 1200 non consente l'avvio del robot se prima non si è chiesto di riconoscere l'oggetto. 
+Anche in questo caso il file audio in HTML è condiviso e può essere scaricato e personalizzato da chiunque.
 
 
 ## Attività di addestramento della rete neurale Classe 4BS Liceo Scientifico Tecnologico
