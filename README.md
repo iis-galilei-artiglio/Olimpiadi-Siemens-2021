@@ -12,7 +12,7 @@ Scopo del progetto è quello di far interagire una rete neurale addestrata dagli
 
 I motori per l'azionamento sono motoriduttori a 24V in DC controllati in PWM dal PLC Siemens. Si è scelto di usare dei motoriduttori in DC al posto di motori passo-passo proprio per esaltare il controllo che il PLC può svolgere attraverso la rete neurale, avendo a riferimento il modello umano ovvero il cervello che comunica ai muscoli degli arti movimenti fluidi e continui e non del tipo "step by step".
 
-**PVCorobot**
+**VIDEO PVCorobot**
 <html lang="it"> 
 <body>
     <div class="container">
