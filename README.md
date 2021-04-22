@@ -34,7 +34,7 @@ Una realtà produttiva importante dell'alta versilia è il settore lapideo. L'az
 
 Questa è la prima criticità riscontrata durante il sopralluogo presso l'azienda. Infatti la stagionalità e la composizione del prodotto caricato nel cassone, modificano il tempo necessario per il lavaggio dell'inerte con il risultato che il verde semaforico non corrisponde sempre con il termine del ciclo di lavaggio. Ciò comporta che il camion a volte parte dalla stazione di lavaggio con un getto di acqua e fango che continua ad uscire dalla fessura posteriore del cassone, oppure può accadere che in certe condizioni climatiche e di prodotto, il materiale venga lavato completamente e il getto di acqua posteriore risulti chiaro ma gli spruzzatori continuano ad irrorare il cassone seguendo il tempo di ciclo impostato. 
 
-In altre parole occorre un sistema di lavaggio intelligente, capace di capire quando è necessario interrompere il flusso d'acqua degli spruzzatori ed attivare la sequenza semaforica, in modo da ottimizzare il risparmio energetico ed i tempi di produzione. Questo può essere fatto addestrando una rete neurale in grado di riconoscere la torbidità del flusso di acqua e fango uscente dal lato posteriore del cassone e aseguito del lavaggio dell'inerte (vedere commento COVID in [Organizzazioni e fasi di lavoro](#rammarico).
+In altre parole occorre un sistema di lavaggio intelligente, capace di capire quando è necessario interrompere il flusso d'acqua degli spruzzatori ed attivare la sequenza semaforica, in modo da ottimizzare il risparmio energetico ed i tempi di produzione. Questo può essere fatto addestrando una rete neurale in grado di riconoscere la torbidità del flusso di acqua e fango uscente dal lato posteriore del cassone e aseguito del lavaggio dell'inerte (vedere commento COVID in [Organizzazioni e fasi di lavoro](#nota).
 
 Per questo motivo gli studenti dell'IIS Galilei Artiglio hanno proposto di realizzare un pittogramma da alloggiare posteriormente al cassone di ciascun camion, in modo da costituire una sorta di codice a barre 
 
@@ -70,7 +70,8 @@ Circa invece la costruzione del robot in presenza, i docenti hanno mostrato come
 
 La parte di programmazione con il Tia Portal è stata sviluppata in parte in presenza ed in parte in DAD.
 
-#### Il rammarico dei docenti che hanno svolto l'attività di tutoraggio del progetto, è stato quello di non poter accompagnare, causa COVID, gli studenti presso l'azienda CEMENBIT che si è resa disponibile a collaborare al caso studio. Non è stato possibile infatti operare dei filmati sul grado di torbidità del flusso d'acqua uscente dai cassoni per tentare di addestrare una rete neurale al "lavaggio intelligente". 
+#### Nota
+Il rammarico dei docenti che hanno svolto l'attività di tutoraggio del progetto, è stato quello di non poter accompagnare, causa COVID, gli studenti presso l'azienda CEMENBIT che si è resa disponibile a collaborare al caso studio. Non è stato possibile infatti operare dei filmati sul grado di torbidità del flusso d'acqua uscente dai cassoni per tentare di addestrare una rete neurale al "lavaggio intelligente". 
 
 ## Costi e reperibilità online dei materiali
 Il braccio di PVCorobot ha una estensione massima di circa 50cm ed è in grado di ruotare di 360°. Per renderlo facilmente trasportabile ed indipendente è stato inserito all'interno di un cestino metallico che funge anche da supporto per il PLC, la GPU e gli altri componenti. Al fine di facilitarne la repricabilità, di seguito sono riportati i link del materiale acquistato online. Naturalmente è solo un suggerimento, un'idea che si vuole comunicare, in quanto il progetto è fortemente personalizzabile e quindi migliorabile.
