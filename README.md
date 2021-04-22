@@ -11,7 +11,8 @@ PVCorobot è un robot collaborativo autocostruito con materiali di recupero e a 
 Scopo del progetto è quello di far interagire una rete neurale addestrata dagli studenti con un PLC S7 1200. L'utilizzo dell'AI prevede sia l'interazione vocale che visiva al fine di svolgere compiti sufficientemente complessi in ambito dell'automazione industriale, ma anche in ambito impiantistico in genere come proposto nel caso studio. Per rendere possibile questa alchimia e per suscitare l'interesse negli studenti, è stato costruito un robot utilizzando pezzi di tubo in PVC innestato in curve e TEE facilmente reperibili sul mercato o addirittura da sfridi, in modo da realizzare un prodotto didattico avanzato e facilmente repricabile per piu' postazioni di lavoro. La tecnologia impiegata nel robot è di tutto riguardo trattandosi di tecnologia Siemens (Tia Portal, PLC S7 1200) abbinata ad una rete neurale in Python personalizzata che gira su una GPU Jetson Nano. Il robot è facilmente trasportabile e necessita solo dell'alimentazione elettrica e del collegamento ad internet che può anche avvenire via WiFi, avendo tutto l'occorrente (PLC, Jetson, Nano, router ecc.) "bordo macchina". L'IIS Galilei Artiglio mette a disposizione delle scuole interessate l'intero progetto su GitHub.
 
 I motori per l'azionamento sono motoriduttori a 24V in DC controllati in PWM dal PLC Siemens. Si è scelto di usare dei motoriduttori in DC al posto di motori passo-passo proprio per esaltare il controllo che il PLC può svolgere attraverso la rete neurale, avendo a riferimento il modello umano ovvero il cervello che comunica ai muscoli degli arti movimenti fluidi e continui e non del tipo "step by step".
-**VIDEO ISTITUZIONALE ANCORA DA CARICARE**
+
+**PVCorobot**
 <html lang="it"> 
 <body>
     <div class="container">
@@ -20,7 +21,7 @@ I motori per l'azionamento sono motoriduttori a 24V in DC controllati in PWM dal
         <div class="popup">
             <div class="video">
          <!-- il link you tube deve essere selezionato dal link di rete lasciando la cartella embed -->
-		    <iframe width="614" height="345" src="https://www.youtube.com/embed/2P0j74Kl6sE" ></iframe>
+		    <iframe width="614" height="345" src="https://youtu.be/9PIdQX3Li60" ></iframe>
             </div>
             <a class="close" title="Chiudere" href="modal.html" onclick = "modal.html(); return false;"></a>
         </div>
