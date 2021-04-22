@@ -70,7 +70,7 @@ Circa invece la costruzione del robot in presenza, i docenti hanno mostrato come
 
 La parte di programmazione con il Tia Portal è stata sviluppata in parte in presenza ed in parte in DAD.
 
-Il <a name="rammarico"> </a> dei docenti che hanno svolto l'attività di tutoraggio del progetto, è stato quello di non poter accompagnare, causa COVID, gli studenti presso l'azienda CEMENBIT che si è resa disponibile a collaborare al caso studio. Non è stato possibile infatti operare dei filmati sul grado di torbidità del flusso d'acqua uscente dai cassoni per tentare di addestrare una rete neurale al "lavaggio intelligente". 
+Il # rammarico dei docenti che hanno svolto l'attività di tutoraggio del progetto, è stato quello di non poter accompagnare, causa COVID, gli studenti presso l'azienda CEMENBIT che si è resa disponibile a collaborare al caso studio. Non è stato possibile infatti operare dei filmati sul grado di torbidità del flusso d'acqua uscente dai cassoni per tentare di addestrare una rete neurale al "lavaggio intelligente". 
 
 ## Costi e reperibilità online dei materiali
 Il braccio di PVCorobot ha una estensione massima di circa 50cm ed è in grado di ruotare di 360°. Per renderlo facilmente trasportabile ed indipendente è stato inserito all'interno di un cestino metallico che funge anche da supporto per il PLC, la GPU e gli altri componenti. Al fine di facilitarne la repricabilità, di seguito sono riportati i link del materiale acquistato online. Naturalmente è solo un suggerimento, un'idea che si vuole comunicare, in quanto il progetto è fortemente personalizzabile e quindi migliorabile.
