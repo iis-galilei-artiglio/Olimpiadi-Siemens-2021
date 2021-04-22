@@ -21,7 +21,7 @@ I motori per l'azionamento sono motoriduttori a 24V in DC controllati in PWM dal
         <div class="popup">
             <div class="video">
          <!-- il link you tube deve essere selezionato dal link di rete lasciando la cartella embed -->
-		    <iframe width="614" height="345" src="https://youtu.be/9PIdQX3Li60" ></iframe>
+		    <iframe width="614" height="345" src="https://youtube.com/embed/9PIdQX3Li60" ></iframe>
             </div>
             <a class="close" title="Chiudere" href="modal.html" onclick = "modal.html(); return false;"></a>
         </div>
