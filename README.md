@@ -38,6 +38,8 @@ In altre parole occorre un sistema di lavaggio intelligente, capace di capire qu
 
 Gli studenti dell'IIS Galilei Artiglio hanno inoltre pensato di realizzare un pittogramma da fissare su ciascun camion, in modo da costituire una sorta di codice a barre. In questo scenario il binomio rete neurale-pittogramma non solo controlla attraverso il PLC il lavaggio, ma consente di avere informazioni in tempo reale circa i camion presenti in cava, il numero di consegne giornaliere per ciascuna unità, i tempi di consegna ecc. e fare stime programmate sulla manutenzione degli autocarri. 
 
+Il pittogramma può essere una valida alternativa al servizio [Google Api developer](https://console.developers.google.com) offerto da Google in cui è possibile realizzare un progetto di Cluod Vision API per il riconoscimento delle terghe di autoveicoli. 
+
 Apparentemente il caso studio sembra non avere elementi in comune con il controllo di un robot ad uso didattico. In realtà è vero l'opposto. Addestrare una rete neurale su oggetti personalizzati, ricavare le informazioni utili dall'oggetto riconosciuto e trasferirle al PLC Siemens S7 1200 per il controllo delle azioni da compiere è un metodo, un approccio generale che sta alla base del connubio AI-PLC. Potremmo certamente dire che in termini di programmazione Python-KOP-SCL-FUP, il caso studio è un caso particolare del caso piu' generale denominato PVCorobot.  
 <img src="images/industry40.png" width=550>
 
