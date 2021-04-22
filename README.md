@@ -56,7 +56,7 @@ La classe 4BS del Liceo si è occupata dell'addestramento della rete neurale med
 
 Circa invece la costruzione del robot, i docenti hanno mostrato sia in presenza sia a distanza come è possibile realizzare il montaggio del braccio con estrema semplicità trattandosi di normali tubi da innestare tra loro secondo uno schema stabilito.
 
-La parte di programmazione con il Tia Portal è stata sviluppata in parte in presenza ed in parte in DAD.
+La parte di programmazione con il Tia Portal è stata sviluppata in parte in presenza ed in parte in DDI.
 
 #### Nota
 Il rammarico dei docenti che hanno svolto l'attività di tutoraggio del progetto, è stato quello di non poter accompagnare, causa COVID, gli studenti presso l'azienda CEMENBIT che si è resa disponibile a collaborare al caso studio. Non è stato possibile infatti girare dei filmati e scattare foto sul grado di torbidità del flusso d'acqua uscente dai cassoni per tentare di addestrare una rete neurale al "lavaggio intelligente". 
