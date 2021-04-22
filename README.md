@@ -29,7 +29,7 @@ I motori per l'azionamento sono motoriduttori a 24V in DC controllati in PWM dal
 </body>
 </html>
 
-
+<p></p>
 ## Caso studio
 Una realtà produttiva importante dell'alta versilia è il settore lapideo. L'azienda [Cemenbit](https://www.cemenbit.it/) tra le varie attività produce inerti che sono trasportati mediante specifici automezzi dal luogo di produzione ai vari clienti che ne fanno richiesta. Il materiale estratto dalla cava è dapprima frantumato, successivamente viene lavato ed infine stoccato in apposite aree e suddiviso per caratteristiche e dimensione. Il lavaggio è fatto direttamente a bordo dei cassoni dei camion attraverso un sistema di spruzzatori comandati da due fotocellule poste all'altezza della cabina di guida. L'autista dapprima accede alla pesa per determinare il quantitativo caricato e successivamente ottiene il via libera per spostarsi sotto il sistema di spruzzatori. Un semaforo verde controllato da fotocellule e temporizzatore, comunica all'autista l'avvenuto lavaggio. 
 
