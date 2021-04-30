@@ -38,7 +38,23 @@ Una realtà produttiva importante dell'alta versilia è il settore lapideo. L'az
 
 Questa fase appena descritta contiene delle criticità per l'azienda. Infatti le condizioni meteo e la composizione del prodotto caricato nel cassone, modificano il tempo necessario per il lavaggio dell'inerte con il risultato che il verde semaforico non corrisponde sempre con il termine del ciclo di lavaggio. Ciò comporta che a volte il camion parte dalla stazione di lavaggio con un getto di acqua e fango che continua ad uscire dalla fessura posteriore del cassone, oppure può accadere che in certe condizioni climatiche e di prodotto, il materiale venga lavato completamente e il getto di acqua posteriore risulti chiaro ma gli spruzzatori continuano ad irrorare il cassone seguendo il tempo di ciclo impostato. 
 
-In altre parole occorre un sistema di lavaggio intelligente, capace di capire quando è necessario interrompere il flusso d'acqua degli spruzzatori ed attivare la sequenza semaforica, in modo da ottimizzare il risparmio energetico ed i tempi di produzione. Questo può essere fatto addestrando una rete neurale in grado di riconoscere la torbidità del flusso di acqua e fango uscente dal lato posteriore del cassone e a seguito del lavaggio dell'inerte ([Nota](#nota)).
+<html lang="it"> 
+<body>
+    <div class="container">
+         <!-- finestra popup 3 -->
+        <a href="#x" class="overlay" id="win3"></a>
+        <div class="popup">
+            <div class="video">
+         <!-- il link you tube deve essere selezionato dal link di rete lasciando la cartella embed -->
+		    <iframe width="614" height="345" src="https://www.youtube.com/embed/BCbPyWJ8YEc" ></iframe>
+            </div>
+            <a class="close" title="Chiudere" href="modal.html" onclick = "modal.html(); return false;"></a>
+        </div>
+    </div>
+</body>
+</html>
+---
+In altre parole occorre un sistema di lavaggio intelligente, capace di capire quando è necessario interrompere il flusso d'acqua degli spruzzatori ed attivare la sequenza semaforica, in modo da ottimizzare il risparmio energetico ed i tempi di produzione. Questo può essere fatto addestrando una rete neurale in grado di riconoscere la torbidità del flusso di acqua e fango uscente dal lato posteriore del cassone a seguito del lavaggio dell'inerte ([Nota](#nota)).
 
 Gli studenti dell'IIS Galilei Artiglio hanno inoltre pensato di realizzare un pittogramma da fissare su ciascun camion, in modo da costituire una sorta di codice a barre. In questo scenario il binomio rete neurale-pittogramma non solo controlla attraverso il PLC il lavaggio, ma consente di avere informazioni in tempo reale circa i camion presenti in cava, il numero di consegne giornaliere per ciascuna unità, i tempi di consegna ecc. e fare stime programmate sulla manutenzione degli autocarri. 
 
