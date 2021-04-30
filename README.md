@@ -46,7 +46,7 @@ Questa fase appena descritta contiene delle criticità per l'azienda. Infatti le
         <div class="popup">
             <div class="video">
          <!-- il link you tube deve essere selezionato dal link di rete lasciando la cartella embed -->
-		    <iframe width="614" height="345" src="https://www.youtube.com/embed/BCbPyWJ8YEc" ></iframe>
+		    <iframe width="429" height="241" src="https://www.youtube.com/embed/BCbPyWJ8YEc" ></iframe>
             </div>
             <a class="close" title="Chiudere" href="modal.html" onclick = "modal.html(); return false;"></a>
         </div>
